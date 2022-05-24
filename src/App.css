@@ -8,6 +8,27 @@
 
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.header {
+    flex: 30%;
+    background-color: #fefefe;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.header .inputContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+
 .header input {
     width: 200px;
     height: 40px;
@@ -29,16 +50,7 @@
     cursor: pointer;
 }
 
-.header .inputContainer {
-    display: flex;
-    flex-direction: column;
-}
-
-.header {
-    flex: 30%;
-    background-color: #fefefe;
+.todoList {
+    flex: 70%;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-content: center;
 }
